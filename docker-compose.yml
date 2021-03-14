@@ -1,0 +1,8 @@
+version: "3"
+services:
+  game_recommendation_system:
+    build: .
+    image: rec_sys_img
+    ports:
+      - 5000:5000
+    container_name: rs_con01
